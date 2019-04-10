@@ -1,9 +1,9 @@
 path <- "..."
 setwd(path)
 library(tidyverse)
-df <- read_csv("questionary.csv")
+df <- read_csv("all/questionary.csv")
 
-dictor <- "2019.04.05_f_d11"
+dictor <- "2019.04.06_f_d06"
 path <- paste0(path, "/", dictor)
 
 df %>% 
